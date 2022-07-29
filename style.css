@@ -4,7 +4,7 @@ body {
     font-family: "Poppins", sans-serif;
 }
 
-/* +++++++++++Custom Colors+++++++++ */
+/* +++++++++++++++++++Custom Colors+++++++++++++++ */
 .background-sky-blue {
     background-color: #289bde;
 }
@@ -31,4 +31,26 @@ body {
 
 .color-dark-gray {
     color: #4a4a4a;
+}
+
+/* +++++++++++++++Slide Images Darkness+++++++++ */
+.carousel-item img {
+    filter: brightness(40%);
+}
+
+.max-width-text {
+    max-width: 500px;
+}
+
+.register-now {
+    background: white;
+}
+
+.social-links a {
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #289bde;
 }
